@@ -49,6 +49,18 @@
             padding: 5px 10px;
             cursor: pointer;
         }
+        /* Updated styles for search bar and social media links */
+        .search-bar {
+            display: inline-block;
+            margin-left: 10px;
+        }
+        .search-bar input {
+            padding: 5px;
+            border: 1px solid #ccc;
+        }
+        footer a {
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -58,7 +70,10 @@
             <a href="#">Supplies</a>
             <a href="#">Sign In</a>
         </div>
-        <input type="text" placeholder="Search..." style="width: 200px;">
+        <form class="search-bar">
+            <label for="search">Search:</label>
+            <input type="text" id="search" placeholder="Search..." style="width: 200px;">
+        </form>
     </header>
 
     <main>
